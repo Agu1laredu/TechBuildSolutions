@@ -68,18 +68,6 @@ function App() {
           <h2>
             <span className="blackTexts">Creating and Designing Software</span>
           </h2>
-          <Container className="containerDos">
-            <h2 className="h2Ceo">
-              <a
-                href="https://www.linkedin.com/in/eduardo-aguilar-91a658219/"
-                className="blackText"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                CEO: Aguilar Jesus Eduardo
-              </a>
-            </h2>
-          </Container>
         </Container>
         <div className="divcontnet">
           <Container>
