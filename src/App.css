@@ -88,6 +88,13 @@
   font-size: 42px;
   position: absolute;
 }
+.blackTextss {
+  color: black;
+  top: 700px;
+  left: 400px;
+  font-size: 25px;
+  position: absolute;
+}
 
 .brownText {
   color: brown;
