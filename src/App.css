@@ -1,0 +1,234 @@
+/* Estilos para el menú */
+
+.navContainer {
+  display: flex;
+  font-family: Helvetica, Arial, Verdana, Tahoma;
+  margin-top: 35px;
+  width: 100%;
+  margin-left: 100px;
+}
+
+.navLogo {
+  width: 150px;
+  position: absolute;
+  left: 50px;
+  top: -10px;
+}
+.navbar-nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.navStyle {
+  font-size: 32px;
+  color: brown;
+  gap: 20;
+}
+
+.navStyles {
+  font-size: 32px;
+  color: black;
+}
+
+.navStyless {
+  font-size: 32px;
+}
+
+/* Estilos para la sección del banner */
+.sectionContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  background-image: url("./assets/uno.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 1100px;
+  width: 100%;
+}
+
+.container {
+  display: flex;
+  text-align: justify;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  border-radius: 20px;
+}
+
+.containerDos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 1000px;
+  left: 25%;
+  transform: translateX(-50%);
+}
+
+.imagen {
+  width: 70%;
+  border-radius: 20px;
+}
+
+.brownTexts {
+  color: brown;
+  top: 500px;
+  left: 400px;
+  font-size: 42px;
+  position: absolute;
+}
+
+.blackTexts {
+  color: black;
+  top: 600px;
+  left: 400px;
+  font-size: 42px;
+  position: absolute;
+}
+.h2Ceo {
+  color: black;
+  top: -100px;
+  left: 400px;
+  font-size: 30px;
+  position: absolute;
+}
+
+.brownText {
+  color: brown;
+}
+
+.blackText {
+  color: black;
+}
+
+/* Estilos para la sección de presupuestos */
+.sectionBudget {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  background-color: #f9f9f9;
+  padding: 50px 0;
+}
+
+.contentPresupuestos {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+}
+
+.contentPresupuesto {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 100px auto;
+  border: 2px solid black;
+  padding: 50px;
+}
+
+/* Media query para pantalla <= 1500px */
+@media (max-width: 1700px) {
+  /* Logo del menú */
+  .navLogo {
+    left: -90px;
+    width: 100px;
+  }
+  .sectionContainer {
+    height: 500px;
+  }
+
+  /* Estilos para los textos marrones */
+  .brownTexts {
+    left: 10px;
+    position: absolute;
+  }
+
+  /* Estilos para los textos negros */
+  .blackTexts {
+    position: absolute;
+    left: 10px;
+  }
+
+  /* Ocultar el elemento h2Ceo */
+  .h2Ceo {
+    display: none;
+  }
+}
+
+/* Media query para pantalla <= 1200px */
+@media (max-width: 1000px) {
+  /* Logo del menú */
+  .navLogo {
+    left: -90px;
+    width: 100px;
+  }
+
+  .imagen {
+    display: none;
+  }
+  .navStyle {
+    margin-left: -200px;
+    margin-top: 10px;
+  }
+  .navStyless {
+    margin-left: -200px;
+    margin-top: 10px;
+  }
+  .brownTexts {
+    left: 10px;
+    position: absolute;
+  }
+  .blackTexts {
+    position: absolute;
+    left: 10px;
+  }
+  .h2Ceo {
+    display: none;
+  }
+}
+
+@media (max-width: 500px) {
+  /* Logo del menú */
+  .navContainer {
+    width: 50%;
+    margin-left: 180px;
+  }
+
+  .navLogo {
+    left: -170px;
+    top: 5px;
+    width: 100px;
+  }
+  .imagen {
+    display: none;
+  }
+  .navStyle {
+    margin-left: -200px;
+    margin-top: 10px;
+  }
+  .navStyless {
+    margin-left: -200px;
+    margin-top: 10px;
+  }
+  .brownTexts {
+    position: absolute;
+    left: 10px;
+    text-align: center;
+    font-size: 20px;
+  }
+  .blackTexts {
+    position: absolute;
+    left: 10px;
+    text-align: center;
+    font-size: 20px;
+  }
+  .h2Ceo {
+    display: none;
+  }
+}
