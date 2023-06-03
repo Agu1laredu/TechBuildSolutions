@@ -68,8 +68,6 @@ function App() {
           <h2>
             <span className="blackTexts">Creating and Designing Software</span>
           </h2>
-        </Container>
-        <div className="divcontnet">
           <Container className="containerDos">
             <h2 className="h2Ceo">
               <a
@@ -82,6 +80,8 @@ function App() {
               </a>
             </h2>
           </Container>
+        </Container>
+        <div className="divcontnet">
           <Container>
             <img className="imagen" src={dosImage} alt="" />
           </Container>
