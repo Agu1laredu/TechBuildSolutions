@@ -72,11 +72,9 @@ function App() {
             <span className="blackTextss">CEO: Aguilar jesus Eduardo</span>
           </h2>
         </Container>
-        <div className="divcontnet">
-          <Container>
-            <img className="imagen" src={dosImage} alt="" />
-          </Container>
-        </div>
+        <Container className="divcontnet">
+          <div></div>
+        </Container>
       </section>
       {/* Section Banner */}
 

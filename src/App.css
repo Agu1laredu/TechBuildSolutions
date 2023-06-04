@@ -38,16 +38,24 @@
 /* Estilos para la sección del banner */
 .sectionContainer {
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
   margin-top: 50px;
   background-image: url("./assets/uno.png");
   background-repeat: no-repeat;
   background-size: cover;
-  height: 700px;
-  width: 100%;
 }
 
+.divcontnet {
+  background-image: url("./assets/dos.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 600px;
+  width: 40%;
+  padding: 20px;
+  margin: 20px 50px;
+  border-radius: 20px;
+}
 .container {
   display: flex;
   text-align: justify;
@@ -56,8 +64,8 @@
   align-items: center;
   width: 50%;
   border-radius: 20px;
+  border: 2px soldi red;
 }
-
 .containerDos {
   display: flex;
   justify-content: center;
@@ -170,7 +178,7 @@
     width: 100px;
   }
 
-  .imagen {
+  .divcontnet {
     display: none;
   }
   .navStyle {
