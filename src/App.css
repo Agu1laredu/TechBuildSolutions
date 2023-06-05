@@ -4,6 +4,16 @@
 
 .d-block {
   height: 1000px;
+  border-radius: 70px;
+  border: 2px solid black;
+}
+
+.Banner {
+  height: 1000px;
+}
+.BannerImg {
+  height: 1000px;
+  width: 100%;
 }
 /* Estilos para la sección de presupuestos */
 .sectionBudget {
@@ -33,4 +43,10 @@
   border: 2px solid black;
   padding: 50px;
   border-radius: 30px;
+}
+
+@media (max-width: 900px) {
+  .Carrousel {
+    display: none;
+  }
 }

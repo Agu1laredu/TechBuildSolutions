@@ -1,13 +1,10 @@
 import "./App.css";
 import Logo from "./assets/1.png";
-import Imagen from "./assets/dos.png";
-import Foto from "./assets/Foto.png";
-import Picture from "./assets/Connect.png";
+import Imagen from "./assets/Banner.png";
 import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import NavDropdown from "react-bootstrap/NavDropdown";
-import Carousel from "react-bootstrap/Carousel";
 import "bootstrap/dist/css/bootstrap.min.css";
 
 function App() {
@@ -56,20 +53,9 @@ function App() {
         </Container>
       </Navbar>
       {/* Section Banner */}
-      <Carousel>
-        <Carousel.Item>
-          <img className="d-block w-100" src={Imagen} alt="First slide" />
-          <Carousel.Caption></Carousel.Caption>
-        </Carousel.Item>
-        <Carousel.Item>
-          <img className="d-block w-100" src={Picture} alt="Second slide" />
-          <Carousel.Caption></Carousel.Caption>
-        </Carousel.Item>
-        <Carousel.Item>
-          <img className="d-block w-100" src={Foto} alt="Third slide" />
-          <Carousel.Caption></Carousel.Caption>
-        </Carousel.Item>
-      </Carousel>
+      <section className="Banner">
+        <img className="BannerImg" src={Imagen} alt="" />
+      </section>
       {/* Section Banner */}
 
       {/* Section Budget */}
