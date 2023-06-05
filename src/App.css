@@ -38,8 +38,7 @@
 /* Estilos para la sección del banner */
 .sectionContainer {
   display: flex;
-  justify-content: space-around;
-  align-items: center;
+  justify-content: row;
   margin-top: 50px;
   background-image: url("./assets/uno.png");
   background-repeat: no-repeat;
@@ -51,7 +50,7 @@
   background-repeat: no-repeat;
   background-size: cover;
   height: 600px;
-  width: 40%;
+  width: 10%;
   padding: 20px;
   margin: 20px 50px;
   border-radius: 20px;
@@ -62,7 +61,6 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin: 20px 50px;
   width: 50%;
   border-radius: 20px;
   border: 2px soldi red;
@@ -126,9 +124,9 @@
 
 .contentPresupuestos {
   display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  flex-wrap: wrap; /* Agregamos flex-wrap para que los elementos se envuelvan en pantallas pequeñas */
+  justify-content: center; /* Centramos los elementos horizontalmente */
+  align-items: flex-start; /* Alineamos los elementos al inicio verticalmente */
   margin-top: 100px;
 }
 
@@ -137,7 +135,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin: 100px auto;
+  margin: 20px; /* Reducimos el margen para dar más espacio a los elementos */
   border: 2px solid black;
   padding: 50px;
 }
@@ -169,6 +167,17 @@
   .h2Ceo {
     display: none;
   }
+  .divcontnet {
+    height: 400px;
+    width: 10%;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  /* Estilos para pantallas con un ancho mínimo de 1024px */
+  .contentPresupuesto {
+    width: 30%; /* Ajustamos el ancho al 30% */
+  }
 }
 
 /* Media query para pantalla <= 1200px */
@@ -197,9 +206,16 @@
   .blackTexts {
     position: absolute;
     left: 10px;
+    font-size: 25px;
   }
   .h2Ceo {
     display: none;
+  }
+}
+@media screen and (min-width: 768px) {
+  /* Estilos para pantallas con un ancho mínimo de 768px */
+  .contentPresupuesto {
+    width: 40%; /* Ajustamos el ancho al 40% */
   }
 }
 
