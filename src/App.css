@@ -147,7 +147,7 @@
     width: 100px;
   }
   .sectionContainer {
-    height: 500px;
+    height: 700px;
   }
 
   /* Estilos para los textos marrones */
@@ -158,6 +158,10 @@
 
   /* Estilos para los textos negros */
   .blackTexts {
+    position: absolute;
+    left: 10px;
+  }
+  .blackTextss {
     position: absolute;
     left: 10px;
   }
@@ -176,6 +180,15 @@
   /* Estilos para pantallas con un ancho mínimo de 1024px */
   .contentPresupuesto {
     width: 30%; /* Ajustamos el ancho al 30% */
+  }
+  .brownTexts {
+    left: 10px;
+    position: absolute;
+  }
+  .blackTexts {
+    position: absolute;
+    left: 10px;
+    font-size: 25px;
   }
 }
 
@@ -206,9 +219,6 @@
     position: absolute;
     left: 10px;
     font-size: 25px;
-  }
-  .h2Ceo {
-    display: none;
   }
 }
 @media screen and (min-width: 768px) {
