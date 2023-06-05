@@ -1,67 +1,16 @@
 import "./App.css";
-import dosImage from "./assets/dos.png";
-import Logo from "./assets/1.png";
 import Container from "react-bootstrap/Container";
-import Nav from "react-bootstrap/Nav";
-import Navbar from "react-bootstrap/Navbar";
-import NavDropdown from "react-bootstrap/NavDropdown";
+import Logo from "./assets/1.png";
+
 import "bootstrap/dist/css/bootstrap.min.css";
 
 function App() {
   return (
     <>
-      {/* Menu */}
-      <Navbar bg="light" expand="lg" className="navContainer">
-        <Container className="navbar-nav">
-          <Navbar.Brand href="#home" className="navStyle">
-            <img className="navLogo" src={Logo} alt="" />
-          </Navbar.Brand>
-          <Navbar.Toggle aria-controls="basic-navbar-nav" />
-          <Navbar.Collapse id="basic-navbar-nav">
-            <Nav className="me-auto">
-              <Nav.Link
-                href="#home"
-                className="navStyle"
-                style={{ color: "brown", fontSize: "40px" }}
-              >
-                Home
-              </Nav.Link>
-              <Nav.Link
-                href="#link"
-                className="navStyle"
-                style={{ color: "brown", fontSize: "40px" }}
-              >
-                Contact
-              </Nav.Link>
-              <NavDropdown
-                title="Projects"
-                id="basic-nav-dropdown"
-                className="navStyless"
-              >
-                <NavDropdown.Item
-                  href="#action/3.1"
-                  className="navStyles"
-                  style={{ color: "black", fontSize: "40px" }}
-                >
-                  Projects Web
-                </NavDropdown.Item>
-                <NavDropdown.Item
-                  href="#action/3.3"
-                  className="navStyles"
-                  style={{ color: "black", fontSize: "40px" }}
-                >
-                  Projects Mobile
-                </NavDropdown.Item>
-              </NavDropdown>
-            </Nav>
-          </Navbar.Collapse>
-        </Container>
-      </Navbar>
-      {/* Menu */}
-
       {/* Section Banner */}
       <section className="sectionContainer">
         <Container className="container">
+          <img className="navLogo" src={Logo} alt="" />
           <h1>
             <span className="brownTexts">TECHBUILD SOLUTIONS</span>
           </h1>
