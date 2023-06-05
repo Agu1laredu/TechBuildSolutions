@@ -68,6 +68,9 @@ function App() {
           <h2>
             <span className="blackTexts">Creating and Designing Software</span>
           </h2>
+          <h2>
+            <span className="blackTextss">CEO: Aguilar Jesus Eduardo </span>
+          </h2>
         </Container>
         <Container className="divcontnet">
           <div></div>
